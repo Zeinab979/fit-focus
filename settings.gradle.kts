@@ -21,3 +21,6 @@ dependencyResolutionManagement {
 
 rootProject.name = "FitFocus"
 include(":app")
+include(":data")
+include(":domain")
+include(":presentation")
