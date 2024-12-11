@@ -36,6 +36,7 @@ android {
 dependencies {
     implementation ("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1")
     implementation ("androidx.compose.ui:ui:1.6.0")
+    implementation ("androidx.navigation:navigation-compose:2.7.0")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
@@ -45,6 +46,7 @@ dependencies {
     implementation ("com.google.dagger:hilt-android:2.48")
     kapt ("com.google.dagger:hilt-compiler:2.48")
     implementation( project(":domain"))
+    implementation (project(":core"))
 }
 
 kapt {
